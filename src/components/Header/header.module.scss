@@ -1,1 +1,9 @@
-// TODO
+.header_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 720px;
+    padding: 2.5rem 0;
+    margin: 0 auto;
+}

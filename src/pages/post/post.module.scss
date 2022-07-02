@@ -1,1 +1,71 @@
 // TODO
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    > img{
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+        max-width: 720px;
+        margin-top: 5rem;
+        > h1{
+            font-size: 3rem;
+            line-height: 3.625rem;
+            color: #F8F8F8;
+            letter-spacing: -0.5px;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .bottom_title{
+            display: flex;
+            justify-items: flex-start;
+            align-items: center;
+            color: #BBBBBB;
+            column-gap: 1.5rem;
+            font-size: 0.875rem;
+            line-height: 1rem;
+            margin-bottom: 4rem;
+
+            time, data, span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            svg{
+                margin-right: 0.5rem;
+            }
+        }
+
+        .postContent{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-bottom: 4rem;
+            h2 {
+                font-size: 2.125rem;
+                line-height: 3rem;
+                color: #F8F8F8;
+                font-weight: 700;
+                margin-bottom: 4rem;
+            }
+
+            .paragraphContent{
+                color: #D7D7D7;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                text-align: justify;
+            }
+        }
+    }
+}

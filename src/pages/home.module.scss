@@ -1,1 +1,80 @@
-// TODO
+.main_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    .list_posts{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 720px;
+        .post{  
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            width: 100%;
+            margin-bottom: 3rem;
+
+
+            > strong{
+                font-size: 1.75rem;
+                line-height: 2rem;
+                margin-bottom: 0.5rem;
+                color: #F8F8F8;
+                letter-spacing: -0.5px;
+                text-align: justify;
+            }
+
+            > span{
+                font-size: 1.125rem;
+                line-height: 1.375rem;
+                color: #D7D7D7;
+                text-align: justify;
+                margin-bottom: 1.5rem;
+            }
+
+            .bottom_post{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+                color: #BBBBBB;
+                column-gap: 1.5rem;
+                font-size: 0.875rem;
+                line-height: 1rem;
+
+                > data{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg{
+                        margin-right: 0.5rem;
+                    }
+                }
+
+                > span{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg{
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+        a {
+            &:last-child{
+                font-size: 1.125rem;
+                line-height: 1.375rem;
+                text-align: justify;
+                font-weight: 600;
+                text-decoration: none;
+                color: #FF57B2;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
